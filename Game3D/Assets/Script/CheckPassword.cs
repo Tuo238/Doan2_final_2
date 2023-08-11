@@ -31,11 +31,21 @@ public class CheckPassword : MonoBehaviour
     {
         switch (inputTextField.text)
         {
-            case "werty":
+            case "2:43":
                 RightAnswer();
                 Debug.Log("right");
                 break;
-            case "12345":
+            case "2520":
+                Debug.Log("hello2");
+                break;
+            case "oxygen":
+                RightAnswer();
+                Debug.Log("right");
+                break;
+            case "312211":
+                Debug.Log("hello2");
+                break;
+            case "D":
                 Debug.Log("hello2");
                 break;
 
